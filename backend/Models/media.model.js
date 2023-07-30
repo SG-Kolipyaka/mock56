@@ -8,6 +8,8 @@ const mediaSchema = new mongoose.Schema({
   keyword: { type: String, required: true },
  
     
+  },{
+    versionKey:false
   });
   
   const MediaInfo = mongoose.model('media', mediaSchema);
