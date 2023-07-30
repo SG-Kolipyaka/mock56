@@ -20,7 +20,7 @@ if(req.file){
 await mediaData.save()
 res.send("data added")
   }catch(er){
-    res.send(er)
+    res.send("hgh")
   }
 })
 
@@ -59,10 +59,10 @@ module.exports = {
 };
 
 
-//   {
-//     "datefield": "20-2-2022",
-//     "title": "media 1",
-//     "mediaSource": "Instagram",
-//     "mediaType": "hhg",   
-//     "keyword":"visargan"
-//   }
+  // {
+  //   "datefield": "20-2-2022",
+  //   "title": "media 1",
+  //   "mediaSource": "Instagram",
+  //   "mediaType": "hhg",   
+  //   "keyword":"visargan"
+  // }
